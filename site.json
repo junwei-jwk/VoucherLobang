@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "brand": "Voucher Lobang King",
+  "tagline": "Good days out. Great lobangs.",
+  "announcement": "Your next Singapore adventure starts here · Enquire on Telegram",
+  "heroTitle": "Big experiences.\nLittle prices.",
+  "heroText": "Movie nights, wildlife encounters and a little island adventure. Find your next day out, then chat with Jason for the latest ticket rates.",
+  "heroImage": "https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=1600&q=85",
+  "telegram": "jasonjwkk",
+  "carousell": "https://www.carousell.sg/u/voucherlobangking/",
+  "accent": "#175cff",
+  "background": "#f7f8fa",
+  "layout": "comfortable",
+  "showFeatured": true,
+  "showHowTo": true,
+  "showFaq": true,
+  "notice": "Prices and availability are confirmed on Telegram. Ask about your preferred date, ticket type and any booking requirements before paying.",
+  "products": [
+    {"id":"gv","name":"Golden Village","subtitle":"All Day movie tickets","category":"Movies","location":"Singapore","description":"Make it a movie night. Ask Jason about Golden Village All Day tickets for your next cinema visit.","image":"https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=800&q=85","price":"","badge":"All Day","featured":true,"visible":true,"status":"Enquire","terms":"Confirm eligible cinemas, screenings, redemption steps, expiry and any surcharges on Telegram."},
+    {"id":"zoo","name":"Singapore Zoo","subtitle":"A day on the wild side","category":"Wildlife","location":"Mandai","description":"A day out for animal lovers. Enquire about Singapore Zoo tickets and plan your visit with family or friends.","image":"https://images.unsplash.com/photo-1547721064-da6cfb341d50?auto=format&fit=crop&w=800&q=85","price":"","badge":"Family day out","featured":true,"visible":true,"status":"Enquire","terms":"Confirm ticket eligibility, visit date, child age bands and whether tram access is included."},
+    {"id":"night","name":"Night Safari","subtitle":"Adventure after dark","category":"Wildlife","location":"Mandai","description":"Let your evening take a walk on the wild side. Ask about Night Safari admission for your preferred date.","image":"https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=800&q=85","price":"","badge":"After dark","featured":false,"visible":true,"status":"Enquire","terms":"Confirm available entry times, visit date and whether tram access or other experiences are included."},
+    {"id":"river","name":"River Wonders","subtitle":"Discover a different kind of wild","category":"Wildlife","location":"Mandai","description":"Add River Wonders to your Singapore day-out plans. Message Jason to check ticket options and availability.","image":"https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?auto=format&fit=crop&w=800&q=85","price":"","badge":"Explore together","featured":false,"visible":true,"status":"Enquire","terms":"Confirm visit date, ticket eligibility and any additional ride or experience charges."},
+    {"id":"bird","name":"Bird Paradise","subtitle":"Colour your day with discovery","category":"Wildlife","location":"Mandai","description":"A colourful choice for your next day out. Enquire about Bird Paradise admission and ticket types.","image":"https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=800&q=85","price":"","badge":"A colourful escape","featured":false,"visible":true,"status":"Enquire","terms":"Confirm visit date, child age bands, ticket eligibility and transport or other inclusions."},
+    {"id":"ocean","name":"Singapore Oceanarium","subtitle":"A whole world beneath the waves","category":"Sentosa","location":"Resorts World Sentosa","description":"Dive into your next day-out plan. Ask Jason about Singapore Oceanarium tickets for your visit.","image":"https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=800&q=85","price":"","badge":"Ocean discovery","featured":true,"visible":true,"status":"Enquire","terms":"Confirm your visit date, resident or non-resident eligibility, ticket type and any entry restrictions."},
+    {"id":"cove","name":"Adventure Cove Waterpark","subtitle":"Make a splash in Sentosa","category":"Sentosa","location":"Resorts World Sentosa","description":"A little sunshine, a little adventure. Enquire about Adventure Cove Waterpark tickets for your next splash-filled day.","image":"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=85","price":"","badge":"Splash day","featured":true,"visible":true,"status":"Enquire","terms":"Confirm visit date, ticket eligibility and any ride, height, age or operational restrictions."}
+  ],
+  "faqs": [
+    {"question":"How do I order tickets?","answer":"Choose a ticket and send your preferred date and group size to @jasonjwkk on Telegram. Jason will confirm the available rate, ticket details and next steps."},
+    {"question":"Why do the tickets say ‘Enquire for price’?","answer":"Ticket rates and availability can vary. Message Jason on Telegram to confirm the current price for your date and ticket type."},
+    {"question":"What should I check before paying?","answer":"Confirm the attraction, visit date, ticket eligibility, expiry, inclusions, redemption instructions and cancellation terms directly with Jason."},
+    {"question":"Where can I view your Carousell profile?","answer":"Use the Carousell links on this page to visit voucherlobangking, see the current listings and read feedback there."},
+    {"question":"How are payment and ticket delivery arranged?","answer":"Jason will explain the available payment methods and ticket delivery details on Telegram before you confirm your order."}
+  ]
+}
