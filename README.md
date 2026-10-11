@@ -33,3 +33,9 @@ Serve `dist/` over HTTP, for example `python -m http.server 4173 --directory dis
 GitHub's Contents API: https://docs.github.com/en/rest/repos/contents
 
 GitHub Pages setup: https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
+
+## Package reference catalogue
+
+The seven Klook listings were reviewed on 11 October 2026. The catalogue includes 65 concise package reference choices and paraphrased terms summaries, with direct links to the full live listings. Promotions and source policies are not seller promises; imported options are marked reference-only until the owner confirms supply and terms. Prices remain blank.
+
+In Admin → Tickets → Edit, edit package names, inclusions, specific terms, visibility, reference status, source URL, checked date and common source terms. Add or remove options as needed. Catalogue validation and backups preserve these fields. Check the source again before updating the checked date. This is a dated manual import, not an automatic scraper or scheduled synchronisation.

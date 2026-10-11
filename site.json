@@ -16,19 +16,691 @@
   "showFaq": true,
   "notice": "Prices and availability are confirmed on Telegram. Ask about your preferred date, ticket type and any booking requirements before paying.",
   "products": [
-    {"id":"gv","name":"Golden Village","subtitle":"All Day movie tickets","category":"Movies","location":"Singapore","description":"Make it a movie night. Ask Jason about Golden Village All Day tickets for your next cinema visit.","image":"https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=800&q=85","price":"","badge":"All Day","featured":true,"visible":true,"status":"Enquire","terms":"Confirm eligible cinemas, screenings, redemption steps, expiry and any surcharges on Telegram."},
-    {"id":"zoo","name":"Singapore Zoo","subtitle":"A day on the wild side","category":"Wildlife","location":"Mandai","description":"A day out for animal lovers. Enquire about Singapore Zoo tickets and plan your visit with family or friends.","image":"https://images.unsplash.com/photo-1547721064-da6cfb341d50?auto=format&fit=crop&w=800&q=85","price":"","badge":"Family day out","featured":true,"visible":true,"status":"Enquire","terms":"Confirm ticket eligibility, visit date, child age bands and whether tram access is included."},
-    {"id":"night","name":"Night Safari","subtitle":"Adventure after dark","category":"Wildlife","location":"Mandai","description":"Let your evening take a walk on the wild side. Ask about Night Safari admission for your preferred date.","image":"https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=800&q=85","price":"","badge":"After dark","featured":false,"visible":true,"status":"Enquire","terms":"Confirm available entry times, visit date and whether tram access or other experiences are included."},
-    {"id":"river","name":"River Wonders","subtitle":"Discover a different kind of wild","category":"Wildlife","location":"Mandai","description":"Add River Wonders to your Singapore day-out plans. Message Jason to check ticket options and availability.","image":"https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?auto=format&fit=crop&w=800&q=85","price":"","badge":"Explore together","featured":false,"visible":true,"status":"Enquire","terms":"Confirm visit date, ticket eligibility and any additional ride or experience charges."},
-    {"id":"bird","name":"Bird Paradise","subtitle":"Colour your day with discovery","category":"Wildlife","location":"Mandai","description":"A colourful choice for your next day out. Enquire about Bird Paradise admission and ticket types.","image":"https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=800&q=85","price":"","badge":"A colourful escape","featured":false,"visible":true,"status":"Enquire","terms":"Confirm visit date, child age bands, ticket eligibility and transport or other inclusions."},
-    {"id":"ocean","name":"Singapore Oceanarium","subtitle":"A whole world beneath the waves","category":"Sentosa","location":"Resorts World Sentosa","description":"Dive into your next day-out plan. Ask Jason about Singapore Oceanarium tickets for your visit.","image":"https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=800&q=85","price":"","badge":"Ocean discovery","featured":true,"visible":true,"status":"Enquire","terms":"Confirm your visit date, resident or non-resident eligibility, ticket type and any entry restrictions."},
-    {"id":"cove","name":"Adventure Cove Waterpark","subtitle":"Make a splash in Sentosa","category":"Sentosa","location":"Resorts World Sentosa","description":"A little sunshine, a little adventure. Enquire about Adventure Cove Waterpark tickets for your next splash-filled day.","image":"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=85","price":"","badge":"Splash day","featured":true,"visible":true,"status":"Enquire","terms":"Confirm visit date, ticket eligibility and any ride, height, age or operational restrictions."}
+    {
+      "id": "gv",
+      "name": "Golden Village",
+      "subtitle": "All Day movie tickets",
+      "category": "Movies",
+      "location": "Singapore",
+      "description": "Make it a movie night. Ask Jason about Golden Village All Day tickets for your next cinema visit.",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=800&q=85",
+      "price": "",
+      "badge": "All Day",
+      "featured": true,
+      "visible": true,
+      "status": "Enquire",
+      "terms": "Confirm eligible cinemas, screenings, redemption steps, expiry and any surcharges on Telegram.",
+      "sourceUrl": "https://www.klook.com/en-SG/activity/34577-golden-village-cinema-everyday-movie-e-voucher/",
+      "sourceChecked": "2026-10-11",
+      "sourceTerms": "Klook’s EVERYDAY voucher is online-only on GV’s website/iGV. Valid 90 days; non-refundable. A S$2.50 online transaction fee applies. Premium formats/seating, group bookings, festivals, premieres and marathons are excluded. Christmas and New Year eves/days, Lunar New Year eve/first two days and their replacement holidays are excluded. If Movie e-Voucher is unavailable for a screening, it is ineligible. Your All Day voucher may have different conditions: confirm the actual voucher with Jason.",
+      "options": [
+        {
+          "id": "gv-option-1",
+          "name": "EVERYDAY e-voucher",
+          "details": "One online movie voucher.",
+          "terms": "",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "gv-option-2",
+          "name": "Four EVERYDAY e-vouchers",
+          "details": "Four-voucher bundle; online redemption.",
+          "terms": "",
+          "referenceOnly": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "zoo",
+      "name": "Singapore Zoo",
+      "subtitle": "A day on the wild side",
+      "category": "Wildlife",
+      "location": "Mandai",
+      "description": "A day out for animal lovers. Enquire about Singapore Zoo tickets and plan your visit with family or friends.",
+      "image": "https://images.unsplash.com/photo-1547721064-da6cfb341d50?auto=format&fit=crop&w=800&q=85",
+      "price": "",
+      "badge": "Family day out",
+      "featured": true,
+      "visible": true,
+      "status": "Enquire",
+      "terms": "Confirm ticket eligibility, visit date, child age bands and whether tram access is included.",
+      "sourceUrl": "https://www.klook.com/en-SG/activity/141-singapore-zoo-singapore/",
+      "sourceChecked": "2026-10-11",
+      "sourceTerms": "Klook lists these packages as non-refundable. Children aged 0–2 enter free. Open-date tickets need Mandai reservations at least one day ahead; reserved dates are final. Fixed-date tickets need no separate reservation. Tram access is included only where specified. Tours/dining below exclude admission. Klook’s Mandai tickets prohibit resale; entry may be refused without compensation. Reference choices only.",
+      "options": [
+        {
+          "id": "zoo-option-1",
+          "name": "Open-date admission + tram",
+          "details": "",
+          "terms": "Reserve at least one day ahead; use before expiry. Reserved dates cannot change.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "zoo-option-2",
+          "name": "Fixed-date admission + tram",
+          "details": "",
+          "terms": "Selected visit date; no separate reservation.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "zoo-option-3",
+          "name": "Two adults: open-date admission",
+          "details": "",
+          "terms": "Reserve at least one day ahead; use before expiry. Reserved dates cannot change.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "zoo-option-4",
+          "name": "Two adults + child: open-date admission",
+          "details": "",
+          "terms": "Reserve at least one day ahead; use before expiry. Reserved dates cannot change.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "zoo-option-5",
+          "name": "Three guests: admission + tram",
+          "details": "Two adults and one child.",
+          "terms": "Reserve at least one day ahead; use before expiry. Reserved dates cannot change.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "zoo-option-6",
+          "name": "Flexi 2 attractions",
+          "details": "",
+          "terms": "Reserve both attractions for the same day.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "zoo-option-7",
+          "name": "Mandai 6 attractions",
+          "details": "",
+          "terms": "Reserve all six attractions for one day.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "zoo-option-8",
+          "name": "Zoo Adventure buggy tour",
+          "details": "Park admission purchased separately.",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "zoo-option-9",
+          "name": "RepTopia backstage",
+          "details": "Park admission purchased separately.",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "zoo-option-10",
+          "name": "Elephant Encounters",
+          "details": "Park admission purchased separately.",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "zoo-option-11",
+          "name": "Breakfast in the Wild",
+          "details": "Park admission purchased separately.",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "night",
+      "name": "Night Safari",
+      "subtitle": "Adventure after dark",
+      "category": "Wildlife",
+      "location": "Mandai",
+      "description": "Let your evening take a walk on the wild side. Ask about Night Safari admission for your preferred date.",
+      "image": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=800&q=85",
+      "price": "",
+      "badge": "After dark",
+      "featured": false,
+      "visible": true,
+      "status": "Enquire",
+      "terms": "Confirm available entry times, visit date and whether tram access or other experiences are included.",
+      "sourceUrl": "https://www.klook.com/en-SG/activity/3928-singapore-night-safari-singapore/",
+      "sourceChecked": "2026-10-11",
+      "sourceTerms": "Klook lists non-refundable packages. Open-date tickets require Mandai reservations; confirm your entry time before visiting. Fixed-date admission includes tram access without a separate reservation. Tours, reserved presentations, language tram and dinners below exclude park admission. Multi-park passes are for same-day visits. Klook’s Mandai tickets prohibit resale. Promotional redemptions depend on Klook’s eligibility rules.",
+      "options": [
+        {
+          "id": "night-option-1",
+          "name": "Open-date admission + tram",
+          "details": "",
+          "terms": "Reserve at least one day ahead; use before expiry. Reserved dates cannot change.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "night-option-2",
+          "name": "Fixed-date admission + tram",
+          "details": "",
+          "terms": "Selected visit date; no separate reservation.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "night-option-3",
+          "name": "BTS admission redemption",
+          "details": "",
+          "terms": "Klook promotion eligibility applies; confirm in the source.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "night-option-4",
+          "name": "Mandai 6 attractions",
+          "details": "",
+          "terms": "Reserve all six attractions for one day.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "night-option-5",
+          "name": "Flexi 2 attractions",
+          "details": "",
+          "terms": "Reserve both attractions for the same day.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "night-option-6",
+          "name": "Safari Adventure tour",
+          "details": "Park admission purchased separately.",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "night-option-7",
+          "name": "Reserved Creatures of the Night seat",
+          "details": "Park admission purchased separately.",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "night-option-8",
+          "name": "Multi-language tram",
+          "details": "Park admission purchased separately.",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "night-option-9",
+          "name": "Indian dinner",
+          "details": "Park admission purchased separately.",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "night-option-10",
+          "name": "Asian buffet dinner",
+          "details": "Park admission purchased separately.",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "river",
+      "name": "River Wonders",
+      "subtitle": "Discover a different kind of wild",
+      "category": "Wildlife",
+      "location": "Mandai",
+      "description": "Add River Wonders to your Singapore day-out plans. Message Jason to check ticket options and availability.",
+      "image": "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?auto=format&fit=crop&w=800&q=85",
+      "price": "",
+      "badge": "Explore together",
+      "featured": false,
+      "visible": true,
+      "status": "Enquire",
+      "terms": "Confirm visit date, ticket eligibility and any additional ride or experience charges.",
+      "sourceUrl": "https://www.klook.com/en-SG/activity/124-river-wonders-singapore-tickets/",
+      "sourceChecked": "2026-10-11",
+      "sourceTerms": "Klook lists non-refundable packages. Open-date admission requires Mandai reservation at least one day ahead; reserved dates cannot change. Fixed-date admission needs no separate reservation. Amazon River Quest is excluded from standard admission. Walking tours and backstage experiences require separate park admission. Confirm age/residency eligibility and experience restrictions.",
+      "options": [
+        {
+          "id": "river-option-1",
+          "name": "Open-date admission",
+          "details": "",
+          "terms": "Reserve at least one day ahead; use before expiry. Reserved dates cannot change.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "river-option-2",
+          "name": "Fixed-date admission",
+          "details": "",
+          "terms": "Selected visit date; no separate reservation.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "river-option-3",
+          "name": "Mandai 6 attractions",
+          "details": "",
+          "terms": "Reserve all six attractions for one day.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "river-option-4",
+          "name": "Flexi 2 attractions",
+          "details": "",
+          "terms": "Reserve both attractions for the same day.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "river-option-5",
+          "name": "River Discovery walking tour",
+          "details": "Park admission purchased separately.",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "river-option-6",
+          "name": "Manatee Mania backstage",
+          "details": "Park admission purchased separately.",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "bird",
+      "name": "Bird Paradise",
+      "subtitle": "Colour your day with discovery",
+      "category": "Wildlife",
+      "location": "Mandai",
+      "description": "A colourful choice for your next day out. Enquire about Bird Paradise admission and ticket types.",
+      "image": "https://images.unsplash.com/photo-1552728089-57bdde30beb3?auto=format&fit=crop&w=800&q=85",
+      "price": "",
+      "badge": "A colourful escape",
+      "featured": false,
+      "visible": true,
+      "status": "Enquire",
+      "terms": "Confirm visit date, child age bands, ticket eligibility and transport or other inclusions.",
+      "sourceUrl": "https://www.klook.com/en-SG/activity/123-bird-paradise-singapore/",
+      "sourceChecked": "2026-10-11",
+      "sourceTerms": "Klook lists non-refundable packages. Open-date admission requires Mandai reservations; fixed-date admission needs no separate reservation. Two-adult bundles require the stated group. Walking tours, lunch and tea exclude park admission. Multi-park passes are for same-day visits. Mastercard/BTS benefits are Klook promotions subject to their eligibility rules.",
+      "options": [
+        {
+          "id": "bird-option-1",
+          "name": "Fixed-date admission",
+          "details": "",
+          "terms": "Selected visit date; no separate reservation.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "bird-option-2",
+          "name": "Two adults: open-date admission",
+          "details": "",
+          "terms": "Reserve at least one day ahead; use before expiry. Reserved dates cannot change.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "bird-option-3",
+          "name": "Open-date admission",
+          "details": "",
+          "terms": "Reserve at least one day ahead; use before expiry. Reserved dates cannot change.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "bird-option-4",
+          "name": "Mastercard: 6 parks + S$10 Food Republic",
+          "details": "",
+          "terms": "Klook promotion eligibility applies; confirm in the source.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "bird-option-5",
+          "name": "BTS admission redemption",
+          "details": "",
+          "terms": "Klook promotion eligibility applies; confirm in the source.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "bird-option-6",
+          "name": "Mandai 6 attractions",
+          "details": "",
+          "terms": "Reserve all six attractions for one day.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "bird-option-7",
+          "name": "Flexi 2 attractions",
+          "details": "",
+          "terms": "Reserve both attractions for the same day.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "bird-option-8",
+          "name": "Bird Discovery walking tour",
+          "details": "Park admission purchased separately.",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "bird-option-9",
+          "name": "Crimson set lunch",
+          "details": "Park admission purchased separately.",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "bird-option-10",
+          "name": "Crimson high tea",
+          "details": "Park admission purchased separately.",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "ocean",
+      "name": "Singapore Oceanarium",
+      "subtitle": "A whole world beneath the waves",
+      "category": "Sentosa",
+      "location": "Resorts World Sentosa",
+      "description": "Dive into your next day-out plan. Ask Jason about Singapore Oceanarium tickets for your visit.",
+      "image": "https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=800&q=85",
+      "price": "",
+      "badge": "Ocean discovery",
+      "featured": true,
+      "visible": true,
+      "status": "Enquire",
+      "terms": "Confirm your visit date, resident or non-resident eligibility, ticket type and any entry restrictions.",
+      "sourceUrl": "https://www.klook.com/en-SG/activity/119-singapore-oceanarium/",
+      "sourceChecked": "2026-10-11",
+      "sourceTerms": "Klook lists non-refundable packages. Date-specific options use the selected visit date. Bags may be inspected; no outside food/drinks. Re-entry needs ticket/wristband/stamp. Check current hours. Season-pass registration is required before entry; it is non-transferable and cannot be resold. Confirm programme eligibility, footwear and voucher outlet restrictions in the full listing.",
+      "options": [
+        {
+          "id": "ocean-option-1",
+          "name": "One-day admission",
+          "details": "",
+          "terms": "",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-2",
+          "name": "Admission + S$15 dining/retail",
+          "details": "",
+          "terms": "",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-3",
+          "name": "Six-month season pass",
+          "details": "",
+          "terms": "183 days from selected date; register before visiting.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-4",
+          "name": "Evening admission + S$10 vouchers",
+          "details": "",
+          "terms": "Entry from 16:00.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-5",
+          "name": "Oceanarium + USS priority entry",
+          "details": "",
+          "terms": "Seven-day validity.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-6",
+          "name": "Oceanarium + USS + Cove",
+          "details": "",
+          "terms": "Seven-day validity.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-7",
+          "name": "Oceanarium + Pier Adventure + Cove",
+          "details": "",
+          "terms": "",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-8",
+          "name": "Insider tour: English",
+          "details": "Admission included.",
+          "terms": "",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-9",
+          "name": "Insider tour: Mandarin",
+          "details": "Admission included.",
+          "terms": "",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-10",
+          "name": "Admission + Sea Jellies: English",
+          "details": "",
+          "terms": "",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-11",
+          "name": "Admission + Sea Jellies: Mandarin",
+          "details": "",
+          "terms": "",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-12",
+          "name": "Admission + Apex Predators: English",
+          "details": "",
+          "terms": "",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-13",
+          "name": "Sea Jellies: English",
+          "details": "Park admission purchased separately.",
+          "terms": "",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-14",
+          "name": "Sea Jellies: Mandarin",
+          "details": "Park admission purchased separately.",
+          "terms": "",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-15",
+          "name": "Apex Predators: English",
+          "details": "Park admission purchased separately.",
+          "terms": "",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-16",
+          "name": "S$10 meal voucher",
+          "details": "Park admission purchased separately.",
+          "terms": "No minimum spend.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-17",
+          "name": "S$5 retail voucher",
+          "details": "Park admission purchased separately.",
+          "terms": "S$50 minimum spend.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "ocean-option-18",
+          "name": "BTS admission + food/dining vouchers",
+          "details": "",
+          "terms": "Klook promotion eligibility applies; confirm in the source.",
+          "referenceOnly": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "id": "cove",
+      "name": "Adventure Cove Waterpark",
+      "subtitle": "Make a splash in Sentosa",
+      "category": "Sentosa",
+      "location": "Resorts World Sentosa",
+      "description": "A little sunshine, a little adventure. Enquire about Adventure Cove Waterpark tickets for your next splash-filled day.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=85",
+      "price": "",
+      "badge": "Splash day",
+      "featured": true,
+      "visible": true,
+      "status": "Enquire",
+      "terms": "Confirm visit date, ticket eligibility and any ride, height, age or operational restrictions.",
+      "sourceUrl": "https://www.klook.com/en-SG/activity/120-adventure-cove-waterpark-singapore/",
+      "sourceChecked": "2026-10-11",
+      "sourceTerms": "Klook lists non-refundable packages, including bad-weather visits. Standard admission is for one guest; children aged 0–3 enter free. Ride height/swimwear rules apply; many rides require adult supervision below 122cm. Lockers cost extra. No outside food/drinks. Re-entry needs ticket and hand stamp. Admission tickets are non-transferable and cannot be resold or exchanged. Confirm your own ticket’s supply and terms with Jason.",
+      "options": [
+        {
+          "id": "cove-option-1",
+          "name": "Cove + USS + Oceanarium",
+          "details": "",
+          "terms": "Seven-day flexibility.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "cove-option-2",
+          "name": "One-day admission",
+          "details": "",
+          "terms": "Seven-day validity from selected participation date.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "cove-option-3",
+          "name": "BTS admission + food/dining vouchers",
+          "details": "",
+          "terms": "Klook promotion eligibility applies; confirm in the source.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "cove-option-4",
+          "name": "Cove + Oceanarium + Pier Adventure",
+          "details": "",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "cove-option-5",
+          "name": "Admission + S$10 retail voucher",
+          "details": "Klook-exclusive bundle.",
+          "terms": "Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "cove-option-6",
+          "name": "Adventure Express",
+          "details": "Park admission purchased separately.",
+          "terms": "Rainbow Reef/Dueling Racer: two uses each; Riptide Rocket: one. Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "cove-option-7",
+          "name": "S$5 retail voucher",
+          "details": "Park admission purchased separately.",
+          "terms": "S$25 minimum spend. Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        },
+        {
+          "id": "cove-option-8",
+          "name": "S$25 meal voucher",
+          "details": "Park admission purchased separately.",
+          "terms": "No minimum spend. Selected date.",
+          "referenceOnly": true,
+          "visible": true
+        }
+      ]
+    }
   ],
   "faqs": [
-    {"question":"How do I order tickets?","answer":"Choose a ticket and send your preferred date and group size to @jasonjwkk on Telegram. Jason will confirm the available rate, ticket details and next steps."},
-    {"question":"Why do the tickets say ‘Enquire for price’?","answer":"Ticket rates and availability can vary. Message Jason on Telegram to confirm the current price for your date and ticket type."},
-    {"question":"What should I check before paying?","answer":"Confirm the attraction, visit date, ticket eligibility, expiry, inclusions, redemption instructions and cancellation terms directly with Jason."},
-    {"question":"Where can I view your Carousell profile?","answer":"Use the Carousell links on this page to visit voucherlobangking, see the current listings and read feedback there."},
-    {"question":"How are payment and ticket delivery arranged?","answer":"Jason will explain the available payment methods and ticket delivery details on Telegram before you confirm your order."}
+    {
+      "question": "How do I order tickets?",
+      "answer": "Choose a ticket and send your preferred date and group size to @jasonjwkk on Telegram. Jason will confirm the available rate, ticket details and next steps."
+    },
+    {
+      "question": "Why do the tickets say ‘Enquire for price’?",
+      "answer": "Ticket rates and availability can vary. Message Jason on Telegram to confirm the current price for your date and ticket type."
+    },
+    {
+      "question": "What should I check before paying?",
+      "answer": "Confirm the attraction, visit date, ticket eligibility, expiry, inclusions, redemption instructions and cancellation terms directly with Jason."
+    },
+    {
+      "question": "Where can I view your Carousell profile?",
+      "answer": "Use the Carousell links on this page to visit voucherlobangking, see the current listings and read feedback there."
+    },
+    {
+      "question": "How are payment and ticket delivery arranged?",
+      "answer": "Jason will explain the available payment methods and ticket delivery details on Telegram before you confirm your order."
+    },
+    {
+      "question": "Are the Klook reference options available from Jason?",
+      "answer": "The options and terms summarise the linked Klook listings checked on 11 October 2026. They help you describe your enquiry; they are not a guarantee of seller availability. Klook promotions, refunds and validity rules do not automatically apply to Jason’s tickets. Confirm your actual ticket’s source, eligibility, inclusions and terms before paying."
+    }
   ]
 }
