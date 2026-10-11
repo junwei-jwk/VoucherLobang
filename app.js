@@ -1,7 +1,7 @@
 'use strict';
 (() => {
   const $=s=>document.querySelector(s), {escape:e,price}=VLK;
-  let site, category='All', selected;
+  let site, category='All', selected, receivedPreview=false;
   const preview=new URLSearchParams(location.search).has('preview');
   const tg=()=> 'https://t.me/'+site.telegram;
   const icons={'Movies':'◈','Wildlife':'✿','Sentosa':'☀'};
@@ -30,7 +30,7 @@
     $('#featured-list').innerHTML=site.products.filter(p=>p.featured&&p.visible).slice(0,3).map(p=>`<button class="featured-item" data-ticket="${e(p.id)}"><img src="${e(p.image||'assets/logo.svg')}" alt="" loading="lazy"><span><strong>${e(p.name)}</strong><small>${e(price(p))}</small></span><i aria-hidden="true">↗</i></button>`).join('');
     $('#faq-list').innerHTML=site.faqs.map(f=>`<details><summary>${e(f.question)}<span aria-hidden="true">+</span></summary><p>${e(f.answer)}</p></details>`).join(''); renderProducts();
   }
-  async function load() { try { const r=await fetch('site.json',{cache:'no-store'}); if(!r.ok) throw Error(); render(await r.json()); $('#load-error').hidden=true; } catch { $('#load-error').hidden=false; } }
+  async function load() { try { const r=await fetch('site.json',{cache:'no-store'}); if(!r.ok) throw Error(); const data=await r.json(); if(!receivedPreview)render(data); $('#load-error').hidden=true; } catch { $('#load-error').hidden=false; } }
   document.addEventListener('click',event=>{
     const filter=event.target.closest('[data-category]'); if(filter) {category=filter.dataset.category; render(site);}
     const button=event.target.closest('[data-ticket]'); if(button) openTicket(button.dataset.ticket);
@@ -45,6 +45,6 @@
   $('#copy-enquiry').addEventListener('click',async()=>{if(!$('#enquiry-form').reportValidity())return;try{await navigator.clipboard.writeText(enquiryMessage());$('#enquiry-feedback').textContent='Enquiry copied. Paste it into your chat with @'+site.telegram+'.';}catch{$('#enquiry-feedback').textContent='Clipboard unavailable. Select and copy this enquiry: '+enquiryMessage();}});
   $('#close-dialog').addEventListener('click',()=>$('#enquiry-dialog').close()); $('#enquiry-dialog').addEventListener('click',event=>{if(event.target===$('#enquiry-dialog')) {const r=$('#enquiry-dialog').getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom) $('#enquiry-dialog').close();}});
   $('#search').addEventListener('input',()=>site&&renderProducts()); $('#sort').addEventListener('change',()=>site&&renderProducts()); $('#reset-search').addEventListener('click',()=>{$('#search').value='';category='All';render(site);}); $('#retry-load').addEventListener('click',load); $('#year').textContent=new Date().getFullYear();
-  if(preview) window.addEventListener('message',event=>{if(event.origin===location.origin&&event.source===window.parent&&event.data?.type==='vlk-preview') try{render(event.data.site);}catch{}});
+  if(preview) window.addEventListener('message',event=>{if(event.origin===location.origin&&event.source===window.parent&&event.data?.type==='vlk-preview') try{render(event.data.site);receivedPreview=true;}catch{}});
   load();
 })();
