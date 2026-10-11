@@ -22,5 +22,6 @@
   const price = p => p.price === '' ? 'Enquire for price' : 'From S$' + p.price.toFixed(2).replace(/\.00$/, '');
   const encode = value => { const bytes=new TextEncoder().encode(value); let bin=''; for(const b of bytes) bin+=String.fromCharCode(b); return btoa(bin); };
   const decode = value => new TextDecoder().decode(Uint8Array.from(atob(value.replace(/\s/g,'')), c=>c.charCodeAt(0)));
-  window.VLK={validate,escape,price,encode,decode};
+  function restoreCatalogue(saved,live){const draft=JSON.parse(JSON.stringify(saved));if(Array.isArray(draft.products))for(const p of draft.products){const current=live.products.find(item=>item.id===p.id);if(!current)continue;for(const key of ['options','sourceUrl','sourceChecked','sourceTerms'])if(!Object.prototype.hasOwnProperty.call(p,key))p[key]=JSON.parse(JSON.stringify(current[key]));}return validate(draft);}
+  window.VLK={validate,escape,price,encode,decode,restoreCatalogue};
 })();
